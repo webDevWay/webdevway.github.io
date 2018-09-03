@@ -1,5 +1,5 @@
 ;(function autocomplete() {
-    //Массив строк.
+//Массив строк.
     var listArr = [
         'Toyota',
         'Opel',
@@ -8,21 +8,19 @@
         'Subaru',
         'Renault',
         'Audi'];
-
+//Переменные - создание, атрибуты и добавление
     var divTag = document.createElement('div'),
         inputTag = document.createElement('input'),
         datalistTag = document.createElement('datalist');
 
-    divTag.className = 'div';
-    inputTag.className = 'input';
     inputTag.setAttribute('list', 'namesList');
     inputTag.setAttribute('placeholder', 'Click for car choice ...');
-    datalistTag.id = 'namesList';
+    datalistTag.setAttribute('id', 'namesList');
 
     document.body.appendChild(divTag);
     divTag.appendChild(inputTag);
     divTag.appendChild(datalistTag);
-
+//Функция и цикл заполнения вариантов выбора
     function createChoiceOption(n) {
         var optionTag = document.createElement('option');
         optionTag.innerText = listArr[n];
