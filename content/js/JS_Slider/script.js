@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', function () {
     let arr=[];
 
     for(let i = 1; i < 10; i++) {
-        arr.push("./img/space3_0" + i + ".jpg");
+        arr.push("https://github.com/webDevWay/webdevway.github.io/tree/master/content/js/JS_Slider/img/space3_0" + i + ".jpg");
     }
     let slider = document.getElementById('slider');
         slider.src = arr[0];
