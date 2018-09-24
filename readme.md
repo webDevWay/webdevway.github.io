@@ -5,7 +5,7 @@
 ### JavaScript:
 * Input c выпадающим списком с использованием datalist.
 
-    https://webdevway.github.io/content/js/list_withList - [код тут](webdevway.github.io/content/js/list_withDataList/autocomplete.js)
+   https://webdevway.github.io/content/js/list_withDataList - [код тут](webdevway.github.io/content/js/list_withDataList/autocomplete.js)
     
 * Input c выпадающим списком.
 
