@@ -5,15 +5,15 @@
 ### JavaScript:
 * Input c выпадающим списком с использованием datalist.
 
-   https://webdevway.github.io/content/js/list_withDataList - [код тут](webdevway.github.io/content/js/list_withDataList/autocomplete.js)
+   https://webdevway.github.io/content/js/list_withDataList - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/list_withDataList/autocomplete.js)
     
 * Input c выпадающим списком.
 
-    https://webdevway.github.io/content/js/list_withList - [код тут](webdevway.github.io/content/js/list_withList/index.js)
+    https://webdevway.github.io/content/js/list_withList - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/list_withList/index.js)
 
 * ToDo.
 
-    https://webdevway.github.io/content/js/JS_ToDo - [код тут](https://webdevway.github.io/content/js/JS_ToDo/index.js)
+    https://webdevway.github.io/content/js/JS_ToDo - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/JS_ToDo/index.js)
     
 * Слайдер.
 
