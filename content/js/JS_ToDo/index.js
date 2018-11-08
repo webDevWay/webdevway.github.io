@@ -1,11 +1,15 @@
 'use strict';
-
-var buttonAdd = document.getElementById('add');
-var mainUl = document.getElementById('mainUl');
-var newTask = document.getElementById('newTask');
-var date = new Date();
-
+//variables for existing id
+var buttonAdd = document.getElementById('add'),
+	mainUl = document.getElementById('mainUl'),
+	newTask = document.getElementById('newTask'),
+	date = new Date();
+	
+//function for create new LI item
 function createItem(task) {
+	if(!newTask.value) {
+		confirm("Заполните поле!");
+	}
     if (newTask.value) {
         var li = document.createElement('li');
         var buttonDel = document.createElement('i');
@@ -24,14 +28,16 @@ function createItem(task) {
 
         buttonDel.addEventListener('click', removeItem);
         newTask.value = "";
-        return li;
     }
-    save();
+    //save(); //for localStorage
 }
+// function and button for create and add new LI item
 function addItem() {
     var li = createItem(newTask.value);
 }
-buttonAdd.onclick = addItem;
+buttonAdd.addEventListener('click', addItem);
+
+//EventListener for add in created LI item
 function removeItem() {
     this.parentNode.parentNode.removeChild(this.parentNode);
 }
