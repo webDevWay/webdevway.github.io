@@ -23,7 +23,6 @@
 
 
 ### WWW
-* Bootstrap 4 + SASS.
+* вёрстка макета Bootstrap 4 + SASS.
 
-   https://webdevway.github.io/content/www/bs4_sass/ - [код тут]
-(https://github.com/webDevWay/webdevway.github.io/tree/master/content/www/bs4_sass)
+   https://webdevway.github.io/content/www/bs4_sass/ - [код тут](https://github.com/webDevWay/webdevway.github.io/tree/master/content/www/bs4_sass)
