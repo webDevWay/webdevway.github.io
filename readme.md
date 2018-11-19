@@ -25,5 +25,5 @@
 ### WWW
 *Bootstrap 4 + SASS
 
-webdevway.github.io/content/www/bs4_sass/ - [код тут]
+   https://webdevway.github.io/content/www/bs4_sass/ - [код тут]
 (https://github.com/webDevWay/webdevway.github.io/tree/master/content/www/bs4_sass)
