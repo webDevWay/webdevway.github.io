@@ -19,4 +19,10 @@
 
     https://webdevway.github.io/content/js/JS_Slider - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/JS_Slider/script.js)
     
-###### p.s.: код местами не очень, нет компонентного подхода, слайдер как спагетти, но я стараюсь постигать тонкости, и однажды доведу всё до ума)
+###### p.s.: код местами не очень, и однажды я доведу всё до ума)
+
+
+### WWW
+* вёрстка макета Bootstrap 4 + SASS.
+
+   https://webdevway.github.io/content/www/bs4_sass/ - [код тут](https://github.com/webDevWay/webdevway.github.io/tree/master/content/www/bs4_sass)
