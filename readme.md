@@ -10,8 +10,8 @@
  * [ToDo.](https://webdevway.github.io/content/js/JS_ToDo) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/JS_ToDo/index.js)
    
 * [Слайдер.](https://webdevway.github.io/content/js/JS_Slider) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/JS_Slider/script.js)
-        
 ###### p.s.: код местами не очень, и однажды я доведу всё до ума)
+
 
 ### WWW
 * [магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
