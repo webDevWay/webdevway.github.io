@@ -25,6 +25,10 @@
 ### WWW
 * [магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
 
-* вёрстка макета Bootstrap 4 + SASS.
+* [Лендинг для услуг IT АУТСОРСИНГ / СИСТЕМНОЕ АДМИНИСТРИРОВАНИЕ / ТЕХ. ПОДДЕРЖКА](https://webdevway.github.io/content/www/exubit.ru/index.html)
+
+* [Лендинг для разработчиков програмного обеспечения](https://github.com/webDevWay/webdevway.github.io/blob/master/content/www/exubit.com/index.html)
+
+* вёрстка *макета* Bootstrap 4 + SASS.
 
    https://webdevway.github.io/content/www/bs4_sass/ - [код тут](https://github.com/webDevWay/webdevway.github.io/tree/master/content/www/bs4_sass)
