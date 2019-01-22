@@ -6,10 +6,10 @@ window.onload = function() {
         newTask = document.getElementById('newTask'),
         date = new Date(),
         // localStorageCount = localStorage.length,
-        localStorageArr = JSON.parse(localStorage.getItem('1')) || [];
+        localStorageArr = JSON.parse(localStorage.getItem('123')) || [];
 //load list from LocalStorage if it not null
-    if (localStorage.length > 0) {
-        var getArr = JSON.parse(localStorage.getItem('1'));
+    if (localStorage.length > 0 && localStorage.getItem('123')) {
+        var getArr = JSON.parse(localStorage.getItem('123'));
             for (let i = 0; i < getArr.length; i++ ) {
                 createItem(getArr[i]);
             }
@@ -50,7 +50,7 @@ window.onload = function() {
     function saveArrInLocalStorage(item, arr) {
         if (item) {
             arr.push(item);
-            localStorage.setItem('1', JSON.stringify(arr));
+            localStorage.setItem('123', JSON.stringify(arr));
         }
     }
 //EventListener on Del Button for add in created LI item
@@ -67,7 +67,7 @@ window.onload = function() {
             for (let i = 0; i < allLiTextArr.length; i++) {
                 str.push(allLiTextArr[i].innerText);
             }
-            localStorage.setItem('1', JSON.stringify(str));
+            localStorage.setItem('123', JSON.stringify(str));
         }
     }
 };
