@@ -1,43 +1,73 @@
-'use strict';
-//variables for existing id
-var buttonAdd = document.getElementById('add'),
-	mainUl = document.getElementById('mainUl'),
-	newTask = document.getElementById('newTask'),
-	date = new Date();
-	
-//function for create new LI item
-function createItem(task) {
-	if(!newTask.value) {
-		confirm("Заполните поле!");
-	}
-    if (newTask.value) {
-        var li = document.createElement('li');
-        var buttonDel = document.createElement('i');
-        buttonDel.className = "fas fa-trash-alt delete";
-        var spanText = document.createElement('span');
-        spanText.innerHTML = newTask.value;
-        var br = document.createElement('br');
-        var spanDate = document.createElement('span');
-        spanDate.className = "date";
-        spanDate.innerHTML = date.toLocaleString('ru', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' });
-        mainUl.appendChild(li);
-        li.appendChild(spanText);
-        li.appendChild(buttonDel);
-        li.appendChild(br);
-        li.appendChild(spanDate);
+window.onload = function() {
+    'use strict';
+//variables for existing HTML #id
+    var buttonAdd = document.getElementById('add'),
+        mainUl = document.getElementById('mainUl'),
+        newTask = document.getElementById('newTask'),
+        date = new Date(),
+        // localStorageCount = localStorage.length,
+        localStorageArr = JSON.parse(localStorage.getItem('1')) || [];
+//load list from LocalStorage if it not null
+    if (localStorage.length > 0) {
+        var getArr = JSON.parse(localStorage.getItem('1'));
+            for (let i = 0; i < getArr.length; i++ ) {
+                createItem(getArr[i]);
+            }
+    }
+//create new LI item
+    function createItem(val) {
+        if(val === '') {
+           return confirm("Заполните поле!");
+        }
+        else if (val) {
+            var li = document.createElement('li');
+            var buttonDel = document.createElement('i');
+            buttonDel.className = "fas fa-trash-alt delete";
+            var spanText = document.createElement('span');
+            spanText.className = "text";
+            spanText.innerHTML = val;
+            var br = document.createElement('br');
+            var spanDate = document.createElement('span');
+            spanDate.className = "date";
+            spanDate.innerHTML = date.toLocaleString('ru', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' });
+            mainUl.appendChild(li);
+            li.appendChild(spanText);
+            li.appendChild(buttonDel);
+            li.appendChild(br);
+            li.appendChild(spanDate);
 
-        buttonDel.addEventListener('click', removeItem);
+            buttonDel.addEventListener('click', removeItem);
+        }
         newTask.value = "";
     }
-    //save(); //for localStorage
-}
-// function and button for create and add new LI item
-function addItem() {
-    var li = createItem(newTask.value);
-}
-buttonAdd.addEventListener('click', addItem);
-
-//EventListener for add in created LI item
-function removeItem() {
-    this.parentNode.parentNode.removeChild(this.parentNode);
-}
+// button for create and add new LI item + save in LocalStorage
+    function addItem() {
+        saveArrInLocalStorage(newTask.value, localStorageArr);
+        createItem(newTask.value);
+    }
+    buttonAdd.addEventListener('click', addItem);
+//Save new item in Local Storage
+    function saveArrInLocalStorage(item, arr) {
+        if (item) {
+            arr.push(item);
+            localStorage.setItem('1', JSON.stringify(arr));
+        }
+    }
+//EventListener on Del Button for add in created LI item
+    function removeItem() {
+        this.parentNode.parentNode.removeChild(this.parentNode);
+        reloadLocalStorage();
+    }
+//reWrite LocalStorage, if one of item deleted
+    function reloadLocalStorage() {
+        var allLiTextArr = document.querySelectorAll('.text');
+        localStorage.clear();
+        if (allLiTextArr.length > 0) {
+            var str = [];
+            for (let i = 0; i < allLiTextArr.length; i++) {
+                str.push(allLiTextArr[i].innerText);
+            }
+            localStorage.setItem('1', JSON.stringify(str));
+        }
+    }
+};
