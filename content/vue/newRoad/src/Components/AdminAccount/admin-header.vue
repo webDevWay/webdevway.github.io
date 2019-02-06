@@ -1,26 +1,27 @@
 <template>
   <!-- Fixed HEADER -->
-<header class="sticky-top">
+  <header class="sticky-top">
     <div class="container-fluid">
-      <div class="row align-items-center">
-        <div class="col-md-4 col-sm-6">
+      <div class="row align-items-center d-sm-flex justify-content-center p-0">
+        <div class="col-md-3 col-sm-4 col-8">
           <img src="../../assets/img/logo.png" alt="logo">
           <span class="h5 pl-3">{{ this.$store.state.content.txtLogo }}</span>
         </div>
-        <div class="col-md-1 col-sm-6 py-1">
+        <div class="col-md-3 col-sm-3 col-4 d-flex justify-content-end py-2">
           <img src="../../assets/img/admin.png" alt="Avatar" title="avatar">
         </div>
-        <div class="col-md-5 col-sm-6">
+        <div class="col-lg-4 d-none d-lg-block p-0">
           <form class="form-inline justify-content-center">
             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success btn-sm" type="submit" v-on:submit.prevent="">Find</button>
+            <button class="btn btn-outline-success btn-sm" type="submit" v-on:submit.prevent="">поиск</button>
           </form>
         </div>
-        <div class="col-md-2 col-sm-6 justify-content-end">
-          <button type="button" class="btn btn-info btn-sm" @click="LogOut">LogOut</button>
+        <div class="col-lg-2 col-md-6 col-sm-5 col-3 d-flex justify-content-end">
+          <button type="button" class="btn btn-info btn-sm" @click="LogOut">Выйти</button>
         </div>
       </div>
     </div>
+
   </header>
 </template>
 <!--<template>-->

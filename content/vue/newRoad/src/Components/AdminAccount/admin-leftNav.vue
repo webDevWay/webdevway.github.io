@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-2 col-sm-12 p-0">
+  <div class="col-md-2 col-sm-3 col-4 p-0">
       <ul class="active">
         <li class="nav-list-category ">GENERAL</li>
         <li class="nav-list-item current-item"><a href="#"><i class="fas fa-user-circle fasicons"></i>Dashboard</a></li>

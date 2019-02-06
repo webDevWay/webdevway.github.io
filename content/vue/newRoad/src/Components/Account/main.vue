@@ -1,24 +1,26 @@
 <template lang="html">
-    <div class="col-10  main">
-        <div class="row mt-3 ">
-            <div class="col-md-6 col-sm-3">
-                <div class="md-form">
+    <div class="col-md-10 col-sm-9 col-8 main">
+        <div class="row mt-3">
+            <div class="col-md-5 col-sm-7 col-8 mx-auto">
+                <div class="md-form m-0">
                     <input type="text" placeholder="Добавить обращение в ЖКХ" id="text" class="form-control"
                            v-model="ticket.text">
                 </div>
             </div>
-            <div class="col-md-3 col-sm-4">
-                <div class="input-group-append pt-2 w-75">
+            <div class="col-md-2 col-sm-5 col-4 px-0 align-self-center mx-auto">
                     <select class="custom-select" id="inputGroupSelect04" v-model="ticket.type">
                         <option value="1" selected>Пожелание</option>
                         <option value="2">Жалоба</option>
                         <option value="3">Благодарность</option>
                     </select>
+            </div>
+          <div class="col-md-2 col-sm-12  px-0 p-0 align-self-center d-flex d-md-block justify-content-center mx-auto">
+                  <div class="btn btn-success p-2" v-on:click="submitTicketToStore">Добавить</div>
                 </div>
-            </div>
-            <div class="col-md-2 col-sm-6 p-0">
-                <div class="btn btn-success " v-on:click="submitTicketToStore">Добавить</div>
-            </div>
+          <div class="col-md-2"></div>
+
+
+
             <div class="col-12 mt-3">
                 <!-- TEST Card -->
                 <div class="card chart-card alert alert-warning">
@@ -84,7 +86,7 @@
         },
         methods: {
             submitTicketToStore() {
-                if (this.ticket) {
+                if (this.ticket.text) {
                     this.$store.dispatch('addTicketToArr', this.ticket);
                     this.ticket = {
                         text: "",

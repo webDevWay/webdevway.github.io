@@ -2,7 +2,7 @@
     <div id="login">
         <div class="container login-wrapper">
             <div class="row justify-content-center mb-4">
-                <div class="col-sm-12 col-md-4 mainy self-align-middle ">
+                <div class="col-10 col-xl-4 col-lg-5 col-md-6 mainy self-align-middle ">
                     <img class="my-4 " src="../assets/img/logo.png" alt="logo">
                     <h5 class="text-info font-weight-bold">{{ this.$store.state.content.txtLogo }}</h5>
                     <div class="md-form">
@@ -13,7 +13,7 @@
                             <input type="password" placeholder="Password" id="Password" class="form-control">
                             <label for="Password"></label>
                         </div>
-                        <div class="col-md-12 pb-3 d-flex justify-content-between">
+                        <div class="col-md-12 p-0 d-flex justify-content-between">
                             <label class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input">
                                 <span class="custom-control-indicator"></span>
@@ -22,8 +22,11 @@
                           <a href="#" class="">Forgot Password?</a>
                         </div>
                             <div class="btn btn-primary mb-4" @click.prevent="loginClick(true)">ВОЙТИ</div>
-                        <p>Still no account?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please go to <a href="#"> Sign up </a></p>
-                    <p><a href="" data-value="isAdmin" @click.prevent="loginClick('isAdmin')">Admin</a></p>
+                  <div class="col-12 d-flex justify-content-center p-0">
+                    <p>Still no account?</p> &nbsp;&nbsp; <p> Please go to <a href="#"> Sign up </a></p>
+                  </div>
+                    <div class="mb-3"><a href="" data-value="isAdmin" @click.prevent="loginClick('isAdmin')">Admin</a></div>
+
                 </div>
             </div>
             <div class="row">

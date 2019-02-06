@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-2 col-sm-12 p-0">
+    <div class="col-md-2 col-sm-3 col-4 p-0">
       <div class="toggle">
         <span></span>
         <nav class="menu">
