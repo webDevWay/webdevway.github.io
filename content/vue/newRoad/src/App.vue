@@ -10,9 +10,6 @@
 </template>
 
 <script>
-
-    console.log(store.state);
-
     import store from './Store/store.js';
     export default {
        store,

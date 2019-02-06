@@ -1,33 +1,60 @@
 <template>
-    <!-- Fixed HEADER -->
+  <!-- Fixed HEADER -->
+<header class="sticky-top">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-4 col-sm-6">
+          <img src="../../assets/img/logo.png" alt="logo">
+          <span class="h5 pl-3">{{ this.$store.state.content.txtLogo }}</span>
+        </div>
+        <div class="col-md-1 col-sm-6 py-1">
+          <img src="../../assets/img/admin.png" alt="Avatar" title="avatar">
+        </div>
+        <div class="col-md-5 col-sm-6">
+          <form class="form-inline justify-content-center">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success btn-sm" type="submit" v-on:submit.prevent="">Find</button>
+          </form>
+        </div>
+        <div class="col-md-2 col-sm-6 justify-content-end">
+          <button type="button" class="btn btn-info btn-sm" @click="LogOut">LogOut</button>
+        </div>
+      </div>
+    </div>
+  </header>
+</template>
+<!--<template>-->
+    <!--&lt;!&ndash; Fixed HEADER &ndash;&gt;-->
 
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg">
-            <img src="../../assets/img/logo.png" alt="logo">
-            <span class="h5 pl-3">Remark</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <div class="col-2 ">
-                    <img src="../../assets/img/admin.jpg" alt="Avatar" title="avatar">
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="col-6" id="navbarSupportedContent">
-                    <form class="form-inline justify-content-center">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success py-1 btn-sm" type="submit" v-on:submit.prevent="">Find</button>
-                    </form>
-                </div>
-                <div class="col-2 justify-content-end">
-                    <button type="button" class="btn btn-info btn-sm" @click="LogOut">LogOut</button>
-                </div>
-            </div>
-        </nav>
+    <!--<header class="sticky-top">-->
+        <!--<nav class="navbar navbar-expand-lg">-->
+            <!--<img src="../../assets/img/logo.png" alt="logo">-->
+            <!--<span class="h5 pl-3">{{ this.$store.state.content.txtLogo }}</span>-->
+            <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">-->
+                <!--<span class="navbar-toggler-icon"></span>-->
+            <!--</button>-->
+            <!--<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">-->
+                <!--<div class="col-2 ">-->
 
-    </header>
+                    <!--<img src="../../assets/img/admin.png" alt="Avatar" title="avatar">-->
+
+                <!--</div>-->
+                <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+                    <!--<span class="navbar-toggler-icon"></span>-->
+                <!--</button>-->
+                <!--<div class="col-6" id="navbarSupportedContent">-->
+                    <!--<form class="form-inline justify-content-center">-->
+                        <!--<input class="form-control" type="search" placeholder="Search" aria-label="Search">-->
+                        <!--<button class="btn btn-outline-success py-1 btn-sm" type="submit" v-on:submit.prevent="">Find</button>-->
+                    <!--</form>-->
+                <!--</div>-->
+                <!--<div class="col-2 justify-content-end">-->
+                    <!--<button type="button" class="btn btn-info btn-sm" @click="LogOut">LogOut</button>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</nav>-->
+
+    <!--</header>-->
 
 </template>
 

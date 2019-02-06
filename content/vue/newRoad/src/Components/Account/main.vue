@@ -1,15 +1,13 @@
 <template lang="html">
     <div class="col-10  main">
         <div class="row mt-3 ">
-
             <div class="col-md-6 col-sm-3">
                 <div class="md-form">
                     <input type="text" placeholder="Добавить обращение в ЖКХ" id="text" class="form-control"
                            v-model="ticket.text">
-
                 </div>
             </div>
-            <div class="col-md-2 col-sm-6">
+            <div class="col-md-3 col-sm-4">
                 <div class="input-group-append pt-2 w-75">
                     <select class="custom-select" id="inputGroupSelect04" v-model="ticket.type">
                         <option value="1" selected>Пожелание</option>
@@ -19,7 +17,7 @@
                 </div>
             </div>
             <div class="col-md-2 col-sm-6 p-0">
-                <div class="btn btn-success" v-on:click="submitTicketToStore">Добавить</div>
+                <div class="btn btn-success " v-on:click="submitTicketToStore">Добавить</div>
             </div>
             <div class="col-12 mt-3">
                 <!-- TEST Card -->
@@ -64,7 +62,6 @@
                         <ul class="card-text mb-4" v-for="item in $store.state.ticketsSuccess">
                             <li>{{item}}</li>
                         </ul>
-
                     </div>
                 </div>
                 <!-- /Card -->

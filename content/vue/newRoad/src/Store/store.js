@@ -16,6 +16,12 @@ export default new Vuex.Store({
         ticketsWarning: ['Что-то надо сгенерить'],
         ticketsSuccess: ['Здесь будут ваши благодарности'],
         tickets: [],
+        content: {
+          imgLogo: "../assets/img/logo.png",
+          txtLogo: 'Ж. К. Х.',
+
+
+        }
     },
     actions: {
         //Change state.login fo render
@@ -24,7 +30,6 @@ export default new Vuex.Store({
         },
         //Push tickets
         addTicketToArr(state, getTicket) {
-            console.log('from store', this.state.ticketsAlert[0]);
             if (getTicket['type'] == 1) {
                 if (this.state.ticketsAlert[0] === 'Здесь будут ваши пожелания') {
                     this.state.ticketsAlert = [];
@@ -41,13 +46,11 @@ export default new Vuex.Store({
                 }
                 this.state.ticketsSuccess.push(getTicket['text']);
             }
-            console.log('from store', this.state.tickets);
         },
     },
     getters: {
 
         getLoginState: () => {
-            console.log(this.state);
             return this.state;
         },
     }
