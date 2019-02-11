@@ -1,6 +1,6 @@
 <template>
-  <nav class="col-md-2 col-sm-3 col-4 p-0">
-    <ul class="nav-list">
+  <nav class="col-md-2 p-0" v-bind:class="$store.state.changeClassBurgerMenu">
+  <ul class="nav-list">
       <li class="nav-list__category ">GENERAL</li>
       <li class="nav-list__item"><a class="nav-list__link" href="#"><i class="fas fa-user-circle nav-list__fasicons"></i>Dashboard</a></li>
       <li class="nav-list__item "><a class="nav-list__link" href="#"><i class="fas fa-paint-brush nav-list__fasicons"></i>Layouts</a></li>
@@ -21,6 +21,18 @@
 </script>
 
 <style lang="sass">
+  .nav-show
+    display: block
+    position: fixed
+    width: 45%
+    background: #fff
+    top: 12%
+    left: 0
+    bottom: 0
+    z-index: 999
+    transform: scaleX(1) translateX(0)
+    transform-origin: left center
+    opacity: 1
   .nav-list
     padding: 20px 0 0 0
     /*text-align: center*/
@@ -44,4 +56,7 @@
       color: #424242
     .nav-list__item:hover
       background: #F1F4F5
+    @media screen and (max-width: 767px)
+      .nav-md-collapse
+        display: none
 </style>

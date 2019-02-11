@@ -19,9 +19,9 @@ export default new Vuex.Store({
         content: {
           imgLogo: "../assets/img/logo.png",
           txtLogo: 'Ж. К. Х.',
+        },
+        changeClassBurgerMenu: 'nav-md-collapse',
 
-
-        }
     },
     actions: {
         //Change state.login fo render
@@ -47,7 +47,19 @@ export default new Vuex.Store({
                 this.state.ticketsSuccess.push(getTicket['text']);
             }
         },
+      //Toggle Burger Menu Class
+      showBurgerMenu(state) {
+        if (this.state.changeClassBurgerMenu == 'nav-md-collapse') {
+          this.state.changeClassBurgerMenu = 'nav-show';
+          console.log(this.state.changeClassBurgerMenu);
+        }
+        else {
+          this.state.changeClassBurgerMenu = 'nav-md-collapse';
+          console.log(this.state.changeClassBurgerMenu);
+        }
+      },
     },
+
     getters: {
 
         getLoginState: () => {

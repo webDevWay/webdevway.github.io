@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="col-md-10 col-sm-9 col-8 main">
+  <div class="col-md-10 col-12 main">
     <div class="row mt-3">
       <div class="col-md-5 col-sm-7 col-8 mx-auto">
         <div class="md-form m-0">
