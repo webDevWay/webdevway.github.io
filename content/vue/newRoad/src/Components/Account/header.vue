@@ -32,8 +32,7 @@
           return {
             state: {
               logo: this.$store.state.content.imgLogo,
-            }
-
+            },
           }
         },
         methods: {
@@ -53,7 +52,7 @@
 </script>
 
 <style lang="sass">
-    header
+    .user-header
         background: #3f51b5
         color: #fff
 </style>
