@@ -1,8 +1,8 @@
 <template>
-    <div id="login">
-        <div class="container login-wrapper">
+    <div id="login" class="login-wrapper">
+        <div class="container">
             <div class="row justify-content-center mb-4">
-                <div class="col-10 col-xl-4 col-lg-5 col-md-6 mainy self-align-middle ">
+                <div class="col-10 col-xl-4 col-lg-5 col-md-6 self-align-middle login-content">
                     <img class="my-4 " src="../assets/img/logo.png" alt="logo">
                     <h5 class="text-info font-weight-bold">{{ this.$store.state.content.txtLogo }}</h5>
                     <div class="md-form">
@@ -31,7 +31,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <footer class="footer">
+                    <footer class="login-footer">
                         <p>WEBSITE BY Creation Studio</p>
                         <p>© 2018. All RIGHT RESERVED.</p>
                         <div class="social">
@@ -44,9 +44,7 @@
             </div>
         </div>
         </div>
-
 </template>
-
 
 <script>
     import store from '../Store/store.js'
@@ -60,20 +58,19 @@
     }
 </script>
 
-
 <style lang="sass">
-    #login
+    .login-wrapper
         background: linear-gradient(to top, #283593, #3949AB) no-repeat
         height: 100vh
         display: flex
         flex-direction: row
         align-items: center
         text-align: center
-    .mainy
+    .login-content
         height: 50%
         border-radius: 5px
         background: #fff
-    footer
+    .login-footer
         color: white
 </style>
 

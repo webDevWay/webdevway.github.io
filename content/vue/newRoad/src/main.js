@@ -5,7 +5,6 @@ import 'es6-promise/auto';
 import Vuex from 'vuex';
 // //Firebase
 import VueFire from 'vuefire';
-import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
 import 'firebase/messaging';
@@ -36,16 +35,5 @@ Vue.use(BootstrapVue);
 new Vue({
   el: '#app',
     store,
-    created() {
-        const config = {
-            apiKey: 'AIzaSyAD_tnNHwsRPz3tt0Dn3e1dWcWraUWQSFY',
-            authDomain: 'testnewroad.firebaseapp.com',
-            databaseURL: 'https://testnewroad.firebaseio.com',
-            projectId: 'testnewroad',
-            storageBucket: 'testnewroad.appspot.com',
-            messagingSenderId: '681769695460'
-            };
-            firebase.initializeApp(config)
-    },
-  render: h => h(App)
+    render: h => h(App)
 });

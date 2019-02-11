@@ -1,25 +1,18 @@
 <template>
-    <div class="col-md-2 col-sm-3 col-4 p-0">
-      <div class="toggle">
-        <span></span>
-        <nav class="menu">
-        <ul class="active">
-            <li class="nav-list-category ">GENERAL</li>
-            <li class="nav-list-item current-item"><a href="#"><i class="fas fa-user-circle fasicons"></i>Dashboard</a></li>
-            <li class="nav-list-item "><a href="#"><i class="fas fa-paint-brush fasicons"></i>Layouts</a></li>
-            <li class="nav-list-item "><a href="#"><i class="fas fa-leaf fasicons"></i>Pages</a></li>
-            <li class="nav-list-category">ELEMENTS</li>
-            <li class="nav-list-item "><a href="#"><i class="fas fa-recycle fasicons"></i>Важное</a></li>
-            <li class="nav-list-item "><a href="#"><i class="fas fa-home fasicons"></i>Результаты</a></li>
-            <li class="nav-list-item "><a href="#"><i class="fas fa-user-circle fasicons"></i>О нас</a></li>
-            <li class="nav-list-item "><a href="#"><i class="fas fa-address-book fasicons"></i>Контакты</a></li>
+    <nav class="col-md-2 col-sm-3 col-4 p-0">
+        <ul class="nav-list">
+            <li class="nav-list__category ">GENERAL</li>
+            <li class="nav-list__item"><a class="nav-list__link" href="#"><i class="fas fa-user-circle nav-list__fasicons"></i>Dashboard</a></li>
+            <li class="nav-list__item "><a class="nav-list__link" href="#"><i class="fas fa-paint-brush nav-list__fasicons"></i>Layouts</a></li>
+            <li class="nav-list__item "><a class="nav-list__link" href="#"><i class="fas fa-leaf nav-list__fasicons"></i>Pages</a></li>
+            <li class="nav-list__category">ELEMENTS</li>
+            <li class="nav-list__item "><a class="nav-list__link" href="#"><i class="fas fa-recycle nav-list__fasicons"></i>Важное</a></li>
+            <li class="nav-list__item "><a class="nav-list__link" href="#"><i class="fas fa-home nav-list__fasicons"></i>Результаты</a></li>
+            <li class="nav-list__item "><a class="nav-list__link" href="#"><i class="fas fa-user-circle nav-list__fasicons"></i>О нас</a></li>
+            <li class="nav-list__item "><a class="nav-list__link" href="#"><i class="fas fa-address-book nav-list__fasicons"></i>Контакты</a></li>
         </ul>
-        </nav>
-
-      </div>
-    </div>
+    </nav>
 </template>
-
 
 <script>
     export default {
@@ -27,30 +20,28 @@
     }
 </script>
 
-
 <style lang="sass">
-  ul
+  .nav-list
     padding: 20px 0 0 0
     /*text-align: center*/
-    a
+    .nav-list__link
       text-decoration: none
       color: black
       display: block
       padding: 3% 5% 3% 10%
-    a:hover
+    .nav-list__link:hover
       color: black
       text-decoration: none
-    .nav-list-category
+    .nav-list__category
       padding: 3% 5% 3% 10%
       color: #757575
-    .fasicons
+    .nav-list__fasicons
       margin-right: 7px
       color: #757575
-    .nav-list-item
+    .nav-list__item
       list-style-type: none
       width: 100%
       color: #424242
-    .nav-list-item:hover
+    .nav-list__item:hover
       background: #F1F4F5
-
 </style>

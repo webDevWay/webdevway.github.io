@@ -1,7 +1,6 @@
 <template>
     <!-- Fixed HEADER -->
-
-    <header class="sticky-top">
+    <header class="sticky-top user-header">
       <div class="container-fluid">
         <div class="row align-items-center d-sm-flex justify-content-center p-0">
           <div class="col-md-3 col-sm-4 col-8">
@@ -22,7 +21,6 @@
           </div>
         </div>
       </div>
-
     </header>
 
 </template>
@@ -55,11 +53,7 @@
 </script>
 
 <style lang="sass">
-    .right
-        text-align: right
     header
-        height: auto
         background: #3f51b5
         color: #fff
-
 </style>

@@ -13,7 +13,7 @@ export default new Vuex.Store({
     state: {
         login: '',
         ticketsAlert: ['Всё хорошо!!!'],
-        ticketsWarning: ['Что-то надо сгенерить'],
+        ticketsWarning: ['Что-то надо изменить'],
         ticketsSuccess: ['Здесь будут ваши благодарности'],
         tickets: [],
         content: {
