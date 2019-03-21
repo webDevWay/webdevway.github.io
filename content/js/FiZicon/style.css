@@ -1,0 +1,57 @@
+html {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.el {
+    width: 170px;
+    min-height: 260px;
+    border: 1px solid #B5B5B5;
+    border-radius: 15px;
+    margin: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.img-courseid {
+    width: 168px;
+    height: 140px;
+}
+.sci-info {
+    padding: 10px 16px;
+
+}
+p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: .5em;
+}
+.p-genre {
+    font-size: 11px;
+    padding: 5px 0 8px .5em;
+}
+.a-offer   {
+    color: #00c1ff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sci-controls {
+    padding: 5px 0 0px 0;
+}
+.button__a {
+    display: inline-block;
+    width: 100%;
+    padding: .4em .1em;
+    border-radius: 6px;
+    background: #00c1ff;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 12px;
+}
