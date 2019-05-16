@@ -1,5 +1,16 @@
 window.onload = function() {
     'use strict';
+    function fullScreen(element) {
+        if(element.requestFullscreen) {
+            element.requestFullscreen();
+        } else if(element.webkitrequestFullscreen) {
+            element.webkitRequestFullscreen();
+        } else if(element.mozRequestFullscreen) {
+            element.mozRequestFullScreen();
+        }
+    }
+    var html = document.documentElement;
+    fullScreen(html);
 //variables for existing HTML #id
     var buttonAdd = document.getElementById('add'),
         mainUl = document.getElementById('mainUl'),
