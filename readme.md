@@ -12,12 +12,14 @@
 * [Слайдер.](https://webdevway.github.io/content/js/JS_Slider) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/JS_Slider/script.js)
 ###### p.s.: код местами не очень, и однажды я доведу всё до ума)
 
+### Vue.js
+* [Пародия на страницу авторизации и ЛК](https://webdevway.github.io/content/vue/newRoad/index.html) - [код тут](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/newRoad)
 
 ### WWW
 * [магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
 
 * [Лендинг для услуг IT АУТСОРСИНГ / СИСТЕМНОЕ АДМИНИСТРИРОВАНИЕ / ТЕХ. ПОДДЕРЖКА](https://webdevway.github.io/content/www/exubit.ru/index.html)
 
-* [Лендинг для разработчиков програмного обеспечения](https://github.com/webDevWay/webdevway.github.io/blob/master/content/www/exubit.com/index.html)
+* [Лендинг для разработчиков програмного обеспечения](https://webdevway.github.io/content/www/exubit.com/index.html)
 
 * [вёрстка *макета* Bootstrap 4 + SASS](https://webdevway.github.io/content/www/bs4_sass/)
