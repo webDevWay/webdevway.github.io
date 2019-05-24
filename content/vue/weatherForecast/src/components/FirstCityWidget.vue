@@ -69,6 +69,7 @@
       updateUserCity() {
         this.$store.commit('getCity', this.userCity);
         this.$store.dispatch('getData');
+        this.userCity = '';
       }
     },
     computed: {
@@ -109,7 +110,7 @@
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
+    /*color: #2c3e50;*/
   }
   
   .w-choice-input {
@@ -142,40 +143,40 @@
   
   .w-container {
     margin: 50px auto;
-    border: 1px solid grey;
-    border-radius: 20px;
+    border: 1px solid #EEEEEE;
     overflow: hidden;
     min-width: 300px;
     width: 300px;
-    background-image: radial-gradient(ellipse farthest-corner at left top, rgb(226, 226, 226) 0%, rgb(254, 254, 254) 30%, rgb(219, 219, 219) 57%, rgb(209, 209, 209) 100%);
   }
   
   .w-container__header {
     height: 75px;
-    border-bottom: 3px inset grey;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 1.5rem;
-    color: yellowgreen;
-    text-shadow: black 2px 1px 2px;
+    font-weight: bold;
+    background: #EEEEEE;
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   .header__city {
     letter-spacing: 3px;
     text-transform: uppercase;
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
   }
   
   .main-row {
     display: flex;
     height: 40px;
-    border-bottom: 1px dotted grey;
-    font-family: Arial, sans-serif;
+    border-bottom: 1px dotted #EEEEEE;
+    
   }
   
   .main-row:hover {
-    background: lightgrey;
+    background: #EEEEEE;
+    cursor: default;
   }
   
   .main-row:last-child {
@@ -190,7 +191,7 @@
   
   .col__left {
     width: 65%;
-    border-right: 1px dotted black;
+    border-right: 1px solid #EEEEEE;
   }
   
   .col__right {
