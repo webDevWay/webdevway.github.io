@@ -2,6 +2,10 @@
 
 Репозиторий с моими примерами.
 
+### Vue.js
+* [Информер погоды с выбором города](https://webdevway.github.io/content/vue/weatherForecast/dist/) - [код](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/weatherForecast)
+* [Пародия на страницу авторизации и ЛК](https://webdevway.github.io/content/vue/newRoad/index.html) - [код тут](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/newRoad)
+
 ### JavaScript (native):
 * [Input c выпадающим списком с использованием datalist.](https://webdevway.github.io/content/js/list_withDataList) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/list_withDataList/autocomplete.js)
     
@@ -11,10 +15,6 @@
    
 * [Слайдер.](https://webdevway.github.io/content/js/JS_Slider) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/JS_Slider/script.js)
 ###### p.s.: код местами не очень, и однажды я доведу всё до ума)
-
-### Vue.js
-* [Информер погоды с выбором города](https://webdevway.github.io/content/vue/weatherForecast/dist/) - [код](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/weatherForecast)
-* [Пародия на страницу авторизации и ЛК](https://webdevway.github.io/content/vue/newRoad/index.html) - [код тут](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/newRoad)
 
 ### WWW
 * [магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
