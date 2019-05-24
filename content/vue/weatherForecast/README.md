@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+Vue.js + Vuex + REST API (https://openweathermap.org/current)
 ```
 
 ### Compiles and hot-reloads for development
