@@ -88,9 +88,9 @@ body {
 
 .main-card_description {
   border-radius: 6px;
+  background-image: linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
   background-image: -moz-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
   background-image: -webkit-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
-  background-image: linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
   background-image: -ms-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
   color: #ffffff;
   font-family: Muller, sans-serif; }
@@ -126,6 +126,7 @@ body {
   font-weight: 100; }
 
 .card_button {
+  background-image: linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
   background-image: -moz-linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
   background-image: -webkit-linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
   background-image: -ms-linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
