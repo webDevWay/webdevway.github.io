@@ -11,15 +11,39 @@ window.addEventListener('DOMContentLoaded', function () {
     cartSum = d.querySelector('.cart_sum'),
     cartList = d.querySelector('.cart-list'),
     cleanCart = d.querySelector('.header-cart_cleancart'),
-    burgerBtn = d.querySelector('.header-burger_menu');
+    burgerBtn = d.querySelector('.header-burger_menu'),
     burgerBlock = d.querySelector('.hidden-burger');
+
+    //класс для корзины
+  class ShopingCart {
+    constructor() {
+
+    }
+    //Метод добавленния товаров в корзину
+    static addItem(x) {
+      let li = document.createElement('li');
+      li.className = 'cart-list_text';
+      li.innerHTML = x + ': ' + cardPrice + '<span>&#8381;</span>';
+      cartList.appendChild(li);
+    };
+    static clearCart(e) {
+      let cartListText = e.target.parentNode.querySelectorAll('.cart-list_text');
+      for (let i = 0; i < cartListText.length; i++) {
+        cartList.removeChild(cartListText[i]);
+      }
+      localStorageArr = [];
+      localStorage.clear();
+      headerPrice.textContent = cartSum.textContent = '0';
+    }
+
+  }
 
 //При загрузке страницы проверить Local Storage, если он не пустой, добавить элементы в корзину
     let localStorageArr = JSON.parse(localStorage.getItem('cart-items')) || []; //load list from LocalStorage if it not null
   if (localStorage.length > 0 && localStorage.getItem('cart-items')) {
     cartSum.textContent = headerPrice.textContent = localStorage.getItem('cart-sum');
     for (let i = 0; i < localStorageArr.length; i++) {
-      cartListMaker(localStorageArr[i]);
+      ShopingCart.addItem(localStorageArr[i]);
     }
   }
 
@@ -30,9 +54,10 @@ window.addEventListener('DOMContentLoaded', function () {
       if (e.target.dataset.button === 'button-add') {
         headerPrice.textContent = Number(cardPrice) + Number(headerPrice.textContent);
         cartSum.textContent = headerPrice.textContent;
-        console.log(e.target.parentNode.parentNode);
         let title = e.target.parentNode.parentNode.querySelector('.card_title').textContent;
-        cartListMaker(title);
+
+        ShopingCart.addItem(title);
+
         saveListInLocalStorage(title, cartSum.textContent, localStorageArr);
       }
     }
@@ -53,14 +78,6 @@ window.addEventListener('DOMContentLoaded', function () {
     burgerBlock.classList.toggle('d-block')
   });
 
-  //Ф-я добавленния товаров в корзину
-  function cartListMaker(x) {
-    let li = document.createElement('li');
-    li.className = 'cart-list_text';
-    li.innerHTML = x + ': ' + cardPrice + '<span>&#8381;</span>';
-    cartList.appendChild(li);
-  }
-
 //Сохранение элемента в Local Storage
   function saveListInLocalStorage(item, sum, arr) {
     if (item) {
@@ -74,12 +91,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
 //кнопка - очистить корзину - очищает список, Local Storage, общую цену.
   cleanCart.addEventListener('click', function (e) {
-    let cartListText = e.target.parentNode.querySelectorAll('.cart-list_text');
-    for (let i = 0; i < cartListText.length; i++) {
-      cartList.removeChild(cartListText[i]);
-    }
-    localStorageArr = [];
-    localStorage.clear();
-    headerPrice.textContent = cartSum.textContent = '0';
+    ShopingCart.clearCart(e);
   });
 });
