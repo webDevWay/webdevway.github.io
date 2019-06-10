@@ -89,9 +89,14 @@ body {
 
 .main-card_description {
   border-radius: 6px;
-  background-image: -moz-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
+  background-image: -ms-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
+  background-image: -moz-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);  
   background-image: -webkit-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
+<<<<<<< HEAD
   background: linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
+=======
+  background-image: linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
+>>>>>>> 206acb3fc723ecbf83736d96f39b0815fcdec072
   color: #ffffff;
   font-family: Muller, sans-serif; }
 
@@ -126,6 +131,7 @@ body {
   font-weight: 100; }
 
 .card_button {
+  background-image: linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
   background-image: -moz-linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
   background-image: -webkit-linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
   background: linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
