@@ -2,7 +2,7 @@ body {
   width: 95vw;
   height: 100vh;
   background-color: #66D5A9;
-  background-image: url("/img/bkg.jpg");
+  background-image: url("../img/bkg.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -37,7 +37,7 @@ body {
 .img_app {
   height: 540px;
   width: 272px;
-  background-image: url("/img/balls.JPEG");
+  background-image: url("../img/balls.JPEG");
   background-size: cover;
   position: absolute;
   top: 65px;
