@@ -1,0 +1,50 @@
+body {
+  width: 95vw;
+  height: 100vh;
+  background-color: #66D5A9;
+  background-image: url("/img/bkg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  color: silver;
+}
+.bkg_overlay {
+
+}
+.overlay {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.content {
+  height: 100%;
+  margin: 0 auto;
+  padding: 5%;
+  /*background: rgba(50%, 50%, 50%, 0.3);*/
+}
+.market_logo {
+  width: 30%;
+}
+.img_wrapper {
+  position: relative;
+}
+.img_app {
+  height: 540px;
+  width: 272px;
+  background-image: url("/img/balls.JPEG");
+  background-size: cover;
+  position: absolute;
+  top: 65px;
+  left: 9px;
+}
+.img_tel {
+  position: absolute;
+  height: 650px;
+  width: 290px;
+}
