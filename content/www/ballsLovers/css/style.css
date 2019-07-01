@@ -1,38 +1,20 @@
 body {
   width: 95vw;
-  height: 100vh;
-  background-color: #66D5A9;
-  background-image: url("../img/bkg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  color: silver;
-}
-.bkg_overlay {
-
-}
-.overlay {
-  background-color: #000;
-  bottom: 0;
-  left: 0;
-  opacity: .5;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-  pointer-events: none;
-}
-.content {
   height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/bkg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  color: silver;
   margin: 0 auto;
-  padding: 5%;
-  /*background: rgba(50%, 50%, 50%, 0.3);*/
 }
 .market_logo {
-  width: 30%;
+  width: 250px;
+  height: 75px;
 }
 .img_wrapper {
-  position: relative;
+  margin-top: 65px;
 }
 .img_app {
   height: 540px;
@@ -40,11 +22,24 @@ body {
   background-image: url("../img/balls.JPEG");
   background-size: cover;
   position: absolute;
-  top: 65px;
-  left: 9px;
+  z-index: -1;
+  margin-left: 10px;
 }
 .img_tel {
-  position: absolute;
   height: 650px;
   width: 290px;
+  margin-top: -65px;
+}
+@media screen and (max-width: 870px ){
+  .main_logo {
+    text-shadow: black 0 1px 35px;
+    /*background: rgba(0,0,0,0.5);*/
+  }
+}
+@media screen and (max-width: 575px ){
+  .img_app {
+    background-image: url("../img/startScreen.JPEG");
+  }
+
+
 }
