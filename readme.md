@@ -15,7 +15,6 @@
 * [Input c выпадающим списком с использованием datalist.](https://webdevway.github.io/content/js/list_withDataList) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/list_withDataList/autocomplete.js)
     
 * [Input c выпадающим списком.](https://webdevway.github.io/content/js/list_withList) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/list_withList/index.js)
-###### p.s.: код местами не очень, и однажды я доведу всё до ума)
 
 ### WWW
 * [магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
