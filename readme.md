@@ -29,4 +29,6 @@
 
 * [Лендинг для разработчиков програмного обеспечения](https://webdevway.github.io/content/www/exubit.com/index.html)
 
+* [Интересный проект, интерактивная верстка (по условиям без JS)](https://webdevway.github.io/content/www/tabs_woJs/)
+
 * [Вёрстка *макета* Bootstrap 4 + SASS](https://webdevway.github.io/content/www/bs4_sass/)
