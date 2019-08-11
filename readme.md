@@ -19,10 +19,10 @@
 ### WWW
 * [Проект витрины для магазина контактных линз](https://webdevway.github.io/content/www/Opticentre/)
 
-* [магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
+* [Магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
 
 * [Лендинг для услуг IT АУТСОРСИНГ / СИСТЕМНОЕ АДМИНИСТРИРОВАНИЕ / ТЕХ. ПОДДЕРЖКА](https://webdevway.github.io/content/www/exubit.ru/index.html)
 
 * [Лендинг для разработчиков програмного обеспечения](https://webdevway.github.io/content/www/exubit.com/index.html)
 
-* [вёрстка *макета* Bootstrap 4 + SASS](https://webdevway.github.io/content/www/bs4_sass/)
+* [Вёрстка *макета* Bootstrap 4 + SASS](https://webdevway.github.io/content/www/bs4_sass/)
