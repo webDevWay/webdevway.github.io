@@ -1,6 +1,7 @@
-## webdevway.github.io
+Доброго Вам!)
+Здесь мой репозиторий - портфолио...
 
-Репозиторий с моими примерами.
+## webdevway.github.io
 
 ### Vue.js
 * [Информер погоды с выбором города](https://webdevway.github.io/content/vue/weatherForecast/dist/) - [код](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/weatherForecast)
