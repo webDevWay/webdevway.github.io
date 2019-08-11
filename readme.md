@@ -17,7 +17,11 @@
 * [Input c выпадающим списком.](https://webdevway.github.io/content/js/list_withList) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/list_withList/index.js)
 
 ### WWW
+* [одностраничник для магазина DanceColor](https://webdevway.github.io/content/www/DanceColor/)
+
 * [Проект витрины для магазина контактных линз](https://webdevway.github.io/content/www/Opticentre/)
+
+* [Большая форма с валидацией](https://webdevway.github.io/content/www/ValidationForm/)
 
 * [Магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
 
