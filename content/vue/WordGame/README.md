@@ -1,3 +1,10 @@
+# [Мини игра - Угадай слово]
+[![Screenshot](https://sun9-8.userapi.com/c852236/v852236738/1b6400/Bvs_cYWj_Jk.jpg)]
+
+* Использованы: pug, sass, vue.js, axios
+
+****
+
 # my-project
 
 ## Project setup

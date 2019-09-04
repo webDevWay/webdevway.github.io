@@ -1,9 +1,10 @@
-Доброго Вам!)
+Всем привет!)
 Здесь мой репозиторий - портфолио...
 
 ## webdevway.github.io
 
 ### Vue.js
+* [Мини игра - Угадай слово](https://webdevway.github.io/content/vue/WordGame/dist/index.html) - [код](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/WordGame)
 * [Информер погоды с выбором города](https://webdevway.github.io/content/vue/weatherForecast/dist/) - [код](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/weatherForecast)
 * [Пародия на страницу авторизации и ЛК](https://webdevway.github.io/content/vue/newRoad/index.html) - [код тут](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/newRoad)
 
