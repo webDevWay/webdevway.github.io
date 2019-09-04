@@ -5,11 +5,3 @@
 * Использованы: Vue.js + Vuex + Fetch (REST API (https://openweathermap.org/current))
 ```
 ****
-
-# weatherforecast: Виджет погоды
-
-## Project:
-
-```
-Vue.js + Vuex + REST API (https://openweathermap.org/current)
-```
