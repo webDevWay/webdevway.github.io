@@ -5,12 +5,17 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-
+    modalWindow: false,
+    modalScoreTable: false,
+    tableSuccessWord: [],
+    tableSkipWord: [],
   },
   mutations: {
-
-  },
-  actions: {
-
+    changeModalState(state, modal) {
+      state[modal] = !state[modal];
+    },
+    changeWordTable(state, table) {
+      state[table.table].push(table.pushing);
+    }
   },
 });

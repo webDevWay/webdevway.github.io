@@ -1,12 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <!--<div id="nav">-->
+      <!--<router-link to="./">Играть</router-link> |-->
+      <!--<router-link to="./about">Об игре</router-link>-->
+    <!--</div>-->
+    <!--<router-view/>-->
+    <MainScreen />
   </div>
 </template>
+
+<script>
+  import MainScreen from '@/views/appMainScreen.vue';
+
+  export default {
+    name: "app",
+    components: {
+      MainScreen,
+    }
+  };
+</script>
 
 <style lang="scss">
 #app {
@@ -17,7 +29,7 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding: 5px;
   a {
     font-weight: bold;
     color: #2c3e50;
