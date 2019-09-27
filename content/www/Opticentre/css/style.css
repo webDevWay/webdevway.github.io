@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Muller;
+  src: url("../fonts/Muller.ttf"); }
+@font-face {
+  font-family: YesevaOne;
+  src: url("../fonts/YesevaOne.otf"); }
+body {
+  margin: 0 auto; }
+
+.container {
+  padding-bottom: 50px; }
+
+.header {
+  height: 50px;
+  border-bottom: 1px solid #DCDCDC;
+  font-size: 0.9rem;
+  font-weight: bold; }
+
+.hidden-burger {
+  position: absolute;
+  width: 50vw;
+  top: 25px;
+  left: 50px;
+  z-index: 1;
+  background: #fff;
+  border: 1px solid black; }
+
+.header-icons {
+  padding: 15px;
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  cursor: pointer; }
+
+.header-icon_cart {
+  transition: 1s; }
+
+.header-icon_cart:before {
+  content: "";
+  height: 100%;
+  width: 100px;
+  color: #000; }
+
+.header-cart {
+  width: 150%;
+  height: 450px;
+  position: absolute;
+  top: 35px;
+  right: 5%;
+  z-index: 1;
+  margin: 5px;
+  background: #fff;
+  border: 1px solid black;
+  overflow: auto;
+  display: inline-block;
+  transform: scale(0, 1);
+  transition: 0.3s; }
+
+.hidden-cart {
+  transform: scale(1, 1);
+  transition: 0.5s; }
+
+.hidden-cart_close {
+  font-family: "Arial Black", serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  padding-right: 20px; }
+
+.cart-list {
+  padding-left: 5px; }
+
+.nav {
+  font-weight: bold; }
+
+.nav-item {
+  text-align: center;
+  padding: 3px;
+  cursor: pointer; }
+
+.nav-item_hover {
+  color: #ffffff;
+  background: #641A9C; }
+
+.main_title {
+  font-family: YesevaOne, serif; }
+
+.main-card_description {
+  border-radius: 6px;
+  background-image: -moz-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
+  background-image: -webkit-linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
+  background: linear-gradient(-90deg, #641a9c 0%, #ed639a 100%);
+  color: #ffffff;
+  font-family: Muller, sans-serif; }
+
+.main-card_divider {
+  width: 99%;
+  height: 1px;
+  background: #ffffff; }
+
+.card-item {
+  font-weight: normal;
+  font-size: 1.5rem;
+  flex-wrap: wrap; }
+
+.card_image {
+  width: 100%; }
+
+.card_title {
+  font-family: YesevaOne, serif;
+  font-size: 1.5rem; }
+
+.card_price {
+  font-family: Muller, sans-serif;
+  font-weight: 900;
+  font-size: 1.4rem; }
+
+.fa-star {
+  color: #FAD732;
+  font-size: 1.1rem; }
+
+.card_currency {
+  font-family: Muller, sans-serif;
+  font-weight: 100; }
+
+.card_button {
+  background-image: -moz-linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
+  background-image: -webkit-linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
+  background: linear-gradient(360deg, #641a9c 0%, #ed639a 100%);
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 75px;
+  width: 60%;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: Muller, sans-serif;
+  font-weight: 700;
+  cursor: pointer; }
+
+.card_button:hover {
+  background: #ed639a; }
+
+.menu_btn, .menu_btn:before, .menu_btn:after {
+  position: absolute;
+  top: 0;
+  margin-top: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #222; }
+
+.menu_btn:before,
+.menu_btn:after {
+  content: "";
+  display: block;
+  transition: 0.2s; }
+
+.menu_btn:before {
+  transform: translateY(-7px); }
+
+.menu_btn:after {
+  transform: translateY(5px); }
+
+/*# sourceMappingURL=style.css.map */
