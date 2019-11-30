@@ -20,9 +20,9 @@
 ### WWW
 * [одностраничник для магазина DanceColor](https://webdevway.github.io/content/www/DanceColor/) + адаптив и кроссбраузерность
 
-* [одноэкранный лендинг для игры под Android](https://webdevway.github.io/content/www/ballsLovers/)
+* [одноэкранный лендинг для игры под Android](https://webdevway.github.io/content/www/ballsLovers/) + адаптив и кроссбраузерность
 
-* [одностраничник для отеля](https://webdevway.github.io/content/www/hotel_lesnoe/)
+* [одностраничник для отеля](https://webdevway.github.io/content/www/hotel_lesnoe/) + адаптив и кроссбраузерность
 
 * [Магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html) + адаптив и кроссбраузерность
 
@@ -35,3 +35,5 @@
 * [Большая форма с валидацией](https://webdevway.github.io/content/www/ValidationForm/)
 
 * [Интересный проект, интерактивная верстка (по условиям без JS)](https://webdevway.github.io/content/www/tabs_woJs/)
+
+[код тут](https://github.com/webDevWay/webdevway.github.io/tree/master/content/www)
