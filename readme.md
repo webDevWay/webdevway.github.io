@@ -18,18 +18,20 @@
 * [Input c выпадающим списком.](https://webdevway.github.io/content/js/list_withList) - [код тут](https://github.com/webDevWay/webdevway.github.io/blob/master/content/js/list_withList/index.js)
 
 ### WWW
-* [одностраничник для магазина DanceColor](https://webdevway.github.io/content/www/DanceColor/)
+* [одностраничник для магазина DanceColor](https://webdevway.github.io/content/www/DanceColor/) + адаптив и кроссбраузерность
+
+* [одноэкранный лендинг для игры под Android](https://webdevway.github.io/content/www/ballsLovers/)
+
+* [одностраничник для отеля](https://webdevway.github.io/content/www/hotel_lesnoe/)
+
+* [Магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html) + адаптив и кроссбраузерность
+
+* [Лендинг для услуг IT АУТСОРСИНГ / СИСТЕМНОЕ АДМИНИСТРИРОВАНИЕ / ТЕХ. ПОДДЕРЖКА](https://webdevway.github.io/content/www/exubit.ru/index.html) + адаптив и кроссбраузерность
+
+* [Лендинг для разработчиков програмного обеспечения](https://webdevway.github.io/content/www/exubit.com/index.html) + адаптив и кроссбраузерность
 
 * [Проект витрины для магазина контактных линз](https://webdevway.github.io/content/www/Opticentre/)
 
 * [Большая форма с валидацией](https://webdevway.github.io/content/www/ValidationForm/)
 
-* [Магазин запчастей для Subaru и Mitsubishi в Иркутске](https://webdevway.github.io/content/www/matsu-motors.ru/index.html)
-
-* [Лендинг для услуг IT АУТСОРСИНГ / СИСТЕМНОЕ АДМИНИСТРИРОВАНИЕ / ТЕХ. ПОДДЕРЖКА](https://webdevway.github.io/content/www/exubit.ru/index.html)
-
-* [Лендинг для разработчиков програмного обеспечения](https://webdevway.github.io/content/www/exubit.com/index.html)
-
 * [Интересный проект, интерактивная верстка (по условиям без JS)](https://webdevway.github.io/content/www/tabs_woJs/)
-
-* [Вёрстка *макета* Bootstrap 4 + SASS](https://webdevway.github.io/content/www/bs4_sass/)
