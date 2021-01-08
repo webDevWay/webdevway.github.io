@@ -186,6 +186,9 @@ ul,li,ol{
   padding: 25px 30px;
   height: 100%;
 }
+.for-hover__item:hover {
+  box-shadow: 0px 20px 45px 20px rgba(15, 15, 58, 0.2), 0px 19px 20px 10px rgba(15, 15, 58, 0.12), 0px 0px 16px 11px rgba(0, 0, 0, 0.04);
+}
 .for-what__item img{
   margin-bottom: 10px;
 }
