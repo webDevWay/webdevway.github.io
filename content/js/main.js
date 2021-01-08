@@ -28,6 +28,7 @@ $(document).ready(function(){
   ]
 });
    ////////////////////
+  console.log(1);
      $('.menu-burger').click(function(){
       $('.menu-burger').toggleClass('active');
       $('.header__menu').toggleClass('active');
