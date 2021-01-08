@@ -1,0 +1,386 @@
+@media screen and (max-width: 1300px) {
+
+}
+/*********LG********/
+@media screen and (max-width: 1200px) {
+.for-what__item {
+    max-width: 100%;
+}
+.digital__item {
+    width: 345px;
+}
+.about__human {
+    position: absolute;
+    bottom: -84px;
+    right: -456px;
+}
+.about__wrap {
+    max-width: 460px;
+}
+.header__logo {
+    margin-right: 43px;
+}
+.header__slider {
+    margin-top: 83px;
+}
+.header__slider-wrap .slick-dots {
+    margin-top: 86px;
+}
+.digital__quad_6 {
+    top: 31px;
+}
+.digital__line_4 {
+    width: 138px;
+    right: -276px;
+    top: 105px;
+}
+.digital__quad_3 {
+    top: 124px;
+    left: -214px;
+}
+.digital__line_2 {
+    transform: rotate(90deg);
+    width: 38px;
+    left: -226px;
+    top: 154px;
+}
+.digital__quad_13 {
+    top: 426px;
+    left: -216px;
+}
+.digital__line_9 {
+    width: 39px;
+    left: -230px;
+    top: 447px;
+}
+.digital__quad_14 {
+    top: 427px;
+    right: -217px;
+}
+.digital__line_10 {
+    width: 37px;
+    right: -229px;
+    top: 450px;
+}
+.scema__item {
+    width: 178px;
+    padding: 21px;
+}
+.scema__logo {
+    right: -26px;
+}
+.scema__logo_bottom {
+    right: -26px;
+}
+.office__left {
+    width: 479px;
+    margin-top: 0;
+}
+.office__img img {
+    margin-top: 88px;
+}
+.sound .office__img img {
+    margin-top: 73px;
+    max-width: 438px;
+}
+
+.office__line_1 {
+    top: 257px;
+    right: -29px;
+    width: 29px;
+}
+.office__line_2 {
+    top: 260px;
+    right: -52px;
+    width: 54px;
+}
+.office__line_3 {
+    top: 263px;
+    right: -52px;
+    width: 54px;
+}
+.office__quad_1 {
+    top: 256px;
+    right: -32px;
+}
+.office__quad_2 {
+    top: 258px;
+    right: -54px;
+}
+.office__quad_3 {
+    top: 263px;
+    right: -54px;
+}
+.office__line_4 {
+    top: 136px;
+    right: -149px;
+    width: 238px;
+    transform: rotate(90deg);
+}
+.office__line_5 {
+    top: 236px;
+    right: -73px;
+    width: 43px;
+    transform: rotate(90deg);
+}
+.office__line_6 {
+    bottom: 150px;
+    right: -120px;
+    width: 136px;
+    transform: rotate(90deg);
+}
+.office__quad_4 {
+    top: 400px;
+    right: -54px;
+}
+.office__quad_5 {
+    bottom: 268px;
+    right: -54px;
+}
+.office__quad_6 {
+    bottom: 466px;
+    right: -32px;
+}
+.office__line_7 {
+    bottom: 82px;
+    right: -106px;
+    width: 53px;
+}
+.office__line_8 {
+    bottom: 269px;
+    right: -109px;
+    width: 55px;
+}
+.office__line_9 {
+    bottom: 467px;
+    right: -108px;
+    width: 79px;
+}
+.office__quad_7 {
+    bottom: 466px;
+    right: -109px;
+}
+.office__quad_8 {
+    bottom: 268px;
+    right: -109px;
+}
+.office__quad_9 {
+    top: 400px;
+    right: -109px;
+}
+.sound__quad_5 {
+    bottom: 345px;
+}
+.sound__quad_7 {
+    bottom: 345px;
+}
+.sound__line_5 {
+    bottom: 53px;
+    left: -173px;
+    width: 188px;
+}
+.sound__line_7 {
+    bottom: -42px;
+}
+}
+/*********MD********/
+@media screen and (max-width: 992px) {
+.header__menu{
+    display: block;
+}
+.menu-burger {
+    display: block;
+    margin-left: 10px;
+}
+.header__top {
+    align-items: center;
+    justify-content: flex-end;
+}
+.for-what__item {
+    margin-bottom: 15px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.for-what__title, .digital__title {
+    font-size: 36px;
+}
+.about__human{
+    display: none;
+}
+.office__img{
+    display: none;
+}
+.digital__wrap-img{
+    display: none;
+}
+.digital__row {
+    flex-direction: column;
+    align-items: center;
+}
+.digital__row_sec {
+    margin-top: 0;
+}
+.digital__item {
+    margin-bottom: 10px;
+}
+.digital {
+    padding: 80px 0 80px;
+}
+.scema__logo, .scema__logo_bottom{
+    display: none;
+}
+.office__wrap {
+    flex-direction: column;
+}
+.office__right {
+    margin-left: auto;
+    margin-right: auto;
+}
+.sound .office__left {
+    width: 100%;
+}
+.sound .digital__item {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__link {
+    margin-bottom: 14px;
+    margin-left: 0;
+    position: relative;
+}
+.footer__fst {
+    margin-bottom: 22px;
+}
+.footer__last {
+    margin-top: 18px;
+}
+.footer__bottom {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer__copy {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer__bottom {
+    margin-top: 13px;
+}
+.header__menu {
+    background: #fff;
+    position: fixed;
+    left: -200px;
+    top: 0;
+    height: 100vh;
+    z-index: 9999;
+    transition: .2s;
+}
+.header__menu li a {
+    color: #0F0F3A;
+    font-weight: 600;
+    padding: 13px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.header__menu li a:hover{
+    color: #0F0F3A;
+}
+.header__menu.active{
+    left: 0;
+}
+}
+/*********SM********/
+@media screen and (max-width: 768px) {
+.scema__wrap {
+    display: flex;
+    justify-content: center;
+}
+.scema__item {
+    margin-right: 19px;
+}
+.footer .header__get {
+    margin-right: 0;
+}
+}
+/*********XSM********/
+@media screen and (max-width: 576px) {
+.order__form {
+    width: 100%;
+}
+.digital__item {
+    width: 100%;
+}
+.header__subtitle {
+    width: 100%;
+}
+.header__title {
+    color: #0080FF;
+    font-size: 63px;
+}
+.office__left {
+    width: 100%;
+    }
+    .for-what__title, .digital__title {
+    font-size: 26px;
+}
+.header__logo {
+    margin-right: 10px;
+    width: 52px;
+}   
+.header__tel {
+    font-size: 14px;
+    letter-spacing: 0em;
+}
+.header__tel img {
+    margin-right: 7px;
+}
+.menu-burger {
+    display: block;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.part__slider {
+    padding: 0 26px;
+}
+.part__slider .slick-prev {
+    left: 2px;
+}
+.part__slider .slick-next {
+    right: 2px;
+}
+.footer__soc a {
+    margin-right: 12px;
+}
+.footer{
+    font-size: 14px;
+}
+.order__name input {
+    font-size: 15px;
+}
+.for-what {
+    padding: 40px 0;
+}
+.for-what__title {
+    margin-bottom: 25px;
+}
+.digital {
+    padding: 40px 0 40px;
+}
+.digital__wrap {
+    margin-top: 25px;
+    position: relative;
+}
+.scema {
+    padding: 40px 0;
+}
+.office {
+    padding: 40px 0;
+}
+.sound {
+    padding: 40px 0;
+}
+}
+
+
