@@ -5,5 +5,7 @@ echo("Сёма HELLO!!");
 ?>
 <script>
   let name = prompt("Кто ты такой? Имя???");
+  document.getElementById('greeting').innerText += name;
 </script>
 
+<h1 id="greeting">Привет, </h1>
