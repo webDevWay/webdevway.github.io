@@ -3,9 +3,9 @@
 
 ## webdevway.github.io
 
-##№ PHP
-https://github.com/webDevWay/php-project-57 - Laravel [дипломный проект](https://ru.hexlet.io/programs/php/projects/57)
-https://github.com/webDevWay/php-project-9 - PHP + Slim + Twig [преддипломный проект](https://ru.hexlet.io/programs/php/projects/9)
+### PHP
+* [Менеджер задач (PHP. Laravel)](https://github.com/webDevWay/php-project-57) - Laravel [дипломный проект](https://php-project-57-1-uxv7.onrender.com/)
+* [Анализатор страниц (PHP)](https://github.com/webDevWay/php-project-9) - PHP + Slim + Twig [преддипломный проект]
 
 
 ### Vue.js
