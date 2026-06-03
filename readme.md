@@ -3,6 +3,11 @@
 
 ## webdevway.github.io
 
+##№ PHP
+https://github.com/webDevWay/php-project-57 - Laravel [дипломный проект](https://ru.hexlet.io/programs/php/projects/57)
+https://github.com/webDevWay/php-project-9 - PHP + Slim + Twig [преддипломный проект](https://ru.hexlet.io/programs/php/projects/9)
+
+
 ### Vue.js
 * [Мини игра - Угадай слово](https://webdevway.github.io/content/vue/WordGame/dist/index.html) - [код](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/WordGame)
 * [Информер погоды с выбором города](https://webdevway.github.io/content/vue/weatherForecast/dist/) - [код](https://github.com/webDevWay/webdevway.github.io/tree/master/content/vue/weatherForecast)
